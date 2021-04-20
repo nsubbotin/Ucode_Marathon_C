@@ -1,0 +1,8 @@
+#include <unistd.h>
+#include "minilibmx.h"
+int mx_strlen(const char *s);
+void mx_printchar(char);
+void mx_printstr(const char *s){
+    write(1, s, mx_strlen(s));
+    mx_printchar('\n');
+} 

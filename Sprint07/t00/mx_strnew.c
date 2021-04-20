@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char *mx_strnew(const int size)
+{
+    char *str = malloc(size + 1);
+    str[size] = '\0';
+    for (int i = 0; i < size; i++)
+        str[i] = '\0';
+
+    if (str == NULL)
+        return NULL;
+    return str;
+}
+
+/*
+int main(){
+    char *str = mx_strnew(10);
+    for (int i = 0; i < size; i++)
+        str[i] = 'a';
+    printf("%lu\n", strlen(str));
+}
+*/

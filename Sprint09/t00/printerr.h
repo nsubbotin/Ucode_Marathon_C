@@ -1,0 +1,1 @@
+void mx_printerr(const char*);

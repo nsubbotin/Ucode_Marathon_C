@@ -1,0 +1,11 @@
+touch minilibmx.a
+echo "#include <stdbool.h>\n" >> "minilibmx.a"
+echo "void mx_printchar(char);" >> "minilibmx.a"
+echo "void mx_printint(int);" >> "minilibmx.a"
+echo "void mx_printstr(const char*);" >> "minilibmx.a"
+echo "char *mx_strcpy(char*, const char*);" >> "minilibmx.a"
+echo "int mx_strlen(const char*);" >> "minilibmx.a"
+echo "int mx_strcmp(const char*, const char*);" >> "minilibmx.a"
+echo "bool mx_isdigit(int);" >> "minilibmx.a"
+echo "bool mx_isspace(int);" >> "minilibmx.a"
+echo "int mx_atoi(const char*);" >> "minilibmx.a"
