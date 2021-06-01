@@ -9,7 +9,6 @@ char *mx_get_address(void *p){
     char *r = mx_strnew(mx_strlen(h + 2));
     r[0] = '0';
     r[1] = 'x';
-    int i = 0;
     for (i = 0; h[i] != '\0'; i++)
         r[i + 2] = h[i];
     r[i + 2] = '\0';
