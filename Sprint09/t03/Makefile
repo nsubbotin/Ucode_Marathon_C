@@ -4,7 +4,7 @@ all:
 
 
 clean:
-	 r -rf *.o *.a
+	 rm -rf *.o *.a
 	
 
 install:
