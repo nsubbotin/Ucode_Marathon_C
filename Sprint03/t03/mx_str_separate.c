@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-//На моём компьютере компилит через void
-//#include "mx_printchar.c"
 
 void mx_printchar(char c);
 
